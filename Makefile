@@ -60,6 +60,7 @@ SRC = ft_memset.c \
 	  ft_lstiter.c \
 	  ft_lstmap.c \
 	  ft_realloc_fd.c \
+	  ft_realloc.c \
 
 OBJS = $(SRC:.c=.o)
 

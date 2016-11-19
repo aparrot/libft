@@ -6,7 +6,7 @@
 /*   By: aparrot <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/04 10:41:53 by aparrot           #+#    #+#             */
-/*   Updated: 2016/11/17 22:32:19 by aparrot          ###   ########.fr       */
+/*   Updated: 2016/11/19 17:54:10 by aparrot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,4 +86,5 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 char				*ft_realloc_fd(char *s, int fd, size_t n);
+char				*ft_realloc(char *s, char *buff, size_t n);
 #endif
